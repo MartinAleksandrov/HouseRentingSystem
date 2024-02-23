@@ -1,9 +1,9 @@
-﻿using HouseRentingSystem.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace HouseRentingSystem.Controllers
+﻿namespace HouseRentingSystem.Controllers
 {
+    using HouseRentingSystem.Models;
+    using Microsoft.AspNetCore.Mvc;
+    using System.Diagnostics;
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -14,11 +14,6 @@ namespace HouseRentingSystem.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }
