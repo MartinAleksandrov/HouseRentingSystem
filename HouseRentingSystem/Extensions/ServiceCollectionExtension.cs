@@ -5,7 +5,7 @@
     using Microsoft.EntityFrameworkCore;
     public static class ServiceCollectionExtension
     {
-        public static IServiceCollection AddAplicationServices(this IServiceCollection services)
+        public static IServiceCollecztion AddAplicationServices(this IServiceCollection services)
         {
             return services;
         }
